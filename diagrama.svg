@@ -1,0 +1,40 @@
+<svg width="1000" height="180" viewBox="0 0 1000 180" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .box { fill: #ffffff; stroke: #154193; stroke-width: 2; rx: 12; }
+    .text { font-family: Arial, sans-serif; font-size: 14px; fill: #154193; font-weight: bold; }
+    .arrow { stroke: #ff4700; stroke-width: 3; marker-end: url(#arrowhead); }
+  </style>
+
+  <!-- Arrow definition -->
+  <defs>
+    <marker id="arrowhead" markerWidth="6" markerHeight="4" refX="6" refY="2" orient="auto">
+      <polygon points="0 0, 6 2, 0 4" fill="#ff4700" />
+    </marker>
+  </defs>
+
+  <!-- Boxes -->
+  <rect x="20" y="60" width="120" height="50" class="box"/>
+  <text x="80" y="90" text-anchor="middle" class="text">Problema</text>
+
+  <rect x="170" y="60" width="140" height="50" class="box"/>
+  <text x="240" y="90" text-anchor="middle" class="text">Grand Prix</text>
+
+  <rect x="340" y="60" width="160" height="50" class="box"/>
+  <text x="420" y="90" text-anchor="middle" class="text">DSPI / Integra</text>
+
+  <rect x="530" y="60" width="130" height="50" class="box"/>
+  <text x="595" y="90" text-anchor="middle" class="text">SENAI Lab</text>
+
+  <rect x="690" y="60" width="100" height="50" class="box"/>
+  <text x="740" y="90" text-anchor="middle" class="text">Inova</text>
+
+  <rect x="820" y="60" width="160" height="50" class="box"/>
+  <text x="900" y="90" text-anchor="middle" class="text">Nova Arquitetura</text>
+
+  <!-- Arrows -->
+  <line x1="140" y1="85" x2="170" y2="85" class="arrow"/>
+  <line x1="310" y1="85" x2="340" y2="85" class="arrow"/>
+  <line x1="500" y1="85" x2="530" y2="85" class="arrow"/>
+  <line x1="660" y1="85" x2="690" y2="85" class="arrow"/>
+  <line x1="790" y1="85" x2="820" y2="85" class="arrow"/>
+</svg>

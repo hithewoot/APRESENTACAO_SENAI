@@ -1,0 +1,29 @@
+<svg width="1200" height="500" viewBox="0 0 1200 500" xmlns="http://www.w3.org/2000/svg">
+
+  <style>
+    .title { font: bold 38px Arial; fill: #000; }
+    .card { fill: #ffffff; stroke: #d9d9d9; stroke-width: 1.5; }
+    .label { font: bold 22px Arial; fill: #005CA9; }
+    .value { font: bold 26px Arial; fill: #111; }
+    .equals { font: bold 40px Arial; fill: #666; }
+  </style>
+
+
+  <!-- GRAND PRIX -->
+  <g transform="translate(140,170)">
+    <rect width="360" height="180" rx="18" class="card"/>
+    <text x="30" y="80" class="label">Grand Prix</text>
+    <text x="30" y="130" class="value">Intensidade</text>
+  </g>
+
+  <!-- = SIGN -->
+  <text x="600" y="280" text-anchor="middle" class="equals">=</text>
+
+  <!-- DSPI / INTEGRA -->
+  <g transform="translate(700,170)">
+    <rect width="360" height="180" rx="18" class="card"/>
+    <text x="30" y="80" class="label">DSPI / Integra</text>
+    <text x="30" y="130" class="value">Profundidade</text>
+  </g>
+
+</svg>
